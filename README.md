@@ -13,7 +13,7 @@
 
 ## 🛠 功能特性
 
-*   **全自动运行**：无需服务器，利用 GitHub Actions 每 8 小时自动执行一次检索。
+*   **全自动运行**：无需服务器，利用 GitHub Actions 每 6 小时自动执行一次检索。
 *   **多维度检索**：支持简单的关键词匹配及 `Keyword A AND Keyword B` 的组合逻辑检索。
 *   **数据清洗**：内置 XML 字符清洗程序，自动移除非法字符，确保订阅源的兼容性与稳定性。
 *   **隐私保护**：支持通过 GitHub Secrets 注入配置，隐藏用户的研究领域与关注列表。
@@ -53,13 +53,13 @@
 ### 3. 启动服务
 1.  **配置 Pages**：
     *   进入 **Settings** -> **Pages**。
-    *   **Build and deployment** 下，Source 选择 `Deploy from a branch`。
-    *   Branch 选择 `main` 分支的 `/(root)` 目录。
+    *   **Build and deployment** 下，Source 选择 `GitHub Actions`。
     *   点击 **Save**。
 2.  **激活 Workflow**：
     *   进入 **Actions** 页面。
     *   若提示 "Workflows aren't being run..."，点击绿色按钮 **I understand my workflows, go ahead and enable them**。
     *   选中左侧 **Auto RSS Fetch** -> **Run workflow** 手动触发首次运行。
+    *   首次运行后，等待 `deploy` 任务完成，Pages 链接才会生效。
 
 ---
 
@@ -71,7 +71,7 @@
     *   Zotero 菜单栏：`文件` -> `新建文献库` -> `新建订阅` -> `从网址`。
     *   粘贴上述链接。
 3.  **设置同步频率**：
-    *   建议在 Zotero 订阅设置中将更新时间设为 **8小时** 或更短，以匹配后端的更新频率。
+    *   建议在 Zotero 订阅设置中将更新时间设为 **6小时** 或更短，以匹配后端的更新频率。
 
 ---
 
