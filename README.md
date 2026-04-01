@@ -1,5 +1,5 @@
 # Paper-Feed: 自动化文献精准筛选与推送系统
-
+本项目完全复刻自https://github.com/bb0707888/paper-feed
 [![GitHub Actions](https://img.shields.io/badge/Actions-Automated-blue.svg)](https://github.com/features/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
