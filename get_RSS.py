@@ -30,6 +30,7 @@ DEFAULT_FEED_DESCRIPTION = (
     "Latest journal and preprint papers for FA-based, quasi-2D, "
     "Ruddlesden-Popper, and Dion-Jacobson perovskite solar cells."
 )
+DEFAULT_MAX_AGE_DAYS = 365
 MDPI_SLUG_ALIASES = {
     "condmat": "condensedmatter",
     "microwaves": "microwave",
@@ -368,6 +369,16 @@ def get_env_setting(name, default=""):
     return value or default
 
 
+def get_max_age_days():
+    raw_value = get_env_setting("RSS_MAX_AGE_DAYS", str(DEFAULT_MAX_AGE_DAYS))
+    try:
+        value = int(raw_value)
+    except ValueError:
+        return DEFAULT_MAX_AGE_DAYS
+
+    return max(value, 0)
+
+
 def load_config(filename, env_var_name=None):
     """(保持你之前的 load_config 代码不变)"""
     env_value = get_env_setting(env_var_name) if env_var_name else ""
@@ -456,6 +467,20 @@ def format_pub_date(pub_date):
     if not isinstance(pub_date, datetime.datetime):
         return ""
     return pub_date.strftime("%Y-%m-%d")
+
+
+def is_within_age_limit(pub_date, max_age_days):
+    if max_age_days <= 0:
+        return True
+
+    if not isinstance(pub_date, datetime.datetime):
+        return False
+
+    if pub_date.tzinfo is None:
+        pub_date = pub_date.replace(tzinfo=datetime.timezone.utc)
+
+    cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=max_age_days)
+    return pub_date >= cutoff
 
 
 def ensure_summary_has_metadata(summary, journal_title, authors, pub_date):
@@ -649,6 +674,7 @@ def generate_rss_xml(items):
 def main():
     rss_urls = load_config('journals.dat', 'RSS_JOURNALS')
     queries = load_config('keywords.dat', 'RSS_KEYWORDS')
+    max_age_days = get_max_age_days()
 
     if not rss_urls or not queries:
         print("Error: Configuration files are empty or missing.")
@@ -664,6 +690,10 @@ def main():
         existing_entries = []
     else:
         existing_entries = get_existing_items()
+    existing_entries = [
+        entry for entry in existing_entries
+        if is_within_age_limit(entry.get('pub_date'), max_age_days)
+    ]
     seen_ids = set(entry['id'] for entry in existing_entries)
 
     all_entries = existing_entries.copy()
@@ -680,11 +710,20 @@ def main():
             if entry['id'] in seen_ids:
                 continue
 
+            if not is_within_age_limit(entry.get('pub_date'), max_age_days):
+                continue
+
             if match_entry(entry, queries):
                 all_entries.append(entry)
                 seen_ids.add(entry['id'])
                 new_count += 1
                 print(f"Match found: {entry['title'][:50]}...")
+
+    if max_age_days > 0:
+        all_entries = [
+            entry for entry in all_entries
+            if is_within_age_limit(entry.get('pub_date'), max_age_days)
+        ]
 
     print(f"Added {new_count} new entries.")
     write_failure_log(failures)

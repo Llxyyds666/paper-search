@@ -50,11 +50,13 @@
 *   `RSS_FEED_TITLE`：Zotero 中显示的订阅名称。
 *   `RSS_FEED_DESCRIPTION`：订阅描述。
 *   `RSS_FEED_LINK`：RSS channel 的链接地址；若不填，Actions 环境会自动按 GitHub Pages 地址推断。
+*   `RSS_MAX_AGE_DAYS`：只保留最近多少天的文献。默认 `365`，适合“追新”；设为 `0` 表示不过滤年份。
 *   `RSS_REBUILD_FROM_SCRATCH`：设为 `1` / `true` 时，运行时忽略旧的 `filtered_feed.xml`，适合切换研究方向后重建订阅。
 
 说明：
 *   如果这些 Secret 没填，脚本会回退到代码内的默认标题/描述和仓库里的 `journals.dat` / `keywords.dat`。
 *   如果 Secret 被创建成空字符串，现在也会自动回退，不会再生成空白的 feed 标题和描述。
+*   当前默认只保留最近 `365` 天的条目，避免 2018-2022 这类旧文因为历史缓存或 arXiv 查询被继续带进 Zotero。
 
 ### 3. 启动服务
 1.  **配置 Pages**：
@@ -84,6 +86,7 @@
 *   摘要取决于上游 RSS 是否提供 `summary` / `description` / `content`。
 *   如果上游不给摘要，生成的 feed 仍会尽量写入 `Source`、`Author(s)`、`Published` 这些元数据，避免 Zotero 里只剩一行标题。
 *   不同期刊对 RSS 的慷慨程度差别很大，Elsevier、Springer、arXiv 往往信息更全；有些 publisher 只给目录级元数据。
+*   当前默认只显示最近 `365` 天的结果；如果你想看更长时间窗，可以把 `RSS_MAX_AGE_DAYS` 调大。
 
 ---
 
