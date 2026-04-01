@@ -1,77 +1,46 @@
-# FA基二维钙钛矿太阳能电池相关期刊
-
-## ===== 高相关期刊（合并.rtf高频）=====
-
-# Adv. Funct. Mater. (Wiley)
-https://onlinelibrary.wiley.com/feed/16163028/most-recent
-
-# ACS Appl. Energy Mater. (ACS)
-https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aaemcq
-
-# Chem. Eng. J. / Chemical Engineering Journal (Elsevier)
-https://rss.sciencedirect.com/publication/science/13858947
-
-# Small (Wiley)
-https://onlinelibrary.wiley.com/feed/16136829/most-recent
-
-# Adv. Energy Mater. (Wiley)
+# ===== Wiley / Advanced portfolio =====
 https://onlinelibrary.wiley.com/feed/16146840/most-recent
-
-# ACS Appl. Mater. Interfaces (ACS)
-https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aamick
-
-# Adv. Mater. (Wiley)
+https://onlinelibrary.wiley.com/feed/16163028/most-recent
 https://onlinelibrary.wiley.com/feed/15214095/most-recent
+https://onlinelibrary.wiley.com/feed/21983844/most-recent
+https://onlinelibrary.wiley.com/feed/2199160X/most-recent
+https://onlinelibrary.wiley.com/feed/2365709X/most-recent
+https://onlinelibrary.wiley.com/feed/25750356/most-recent
+https://onlinelibrary.wiley.com/feed/20500505/most-recent
+https://onlinelibrary.wiley.com/feed/2367198x/most-recent
+https://onlinelibrary.wiley.com/feed/26884062/most-recent
 
-# Sol. RRL (Wiley)
-https://onlinelibrary.wiley.com/feed/2367198X/most-recent
+# ===== ACS =====
+https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss
+https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss
 
-# J. Mater. Chem. A (RSC)
-http://feeds.rsc.org/rss/ta
-
-# Angew. Chem. Int. Ed. (Wiley)
-https://onlinelibrary.wiley.com/feed/15213773/most-recent
-
-# ACS Energy Lett. (ACS)
-https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aelccp
-
-# Nano Energy (Elsevier)
+# ===== Elsevier / Cell Press =====
+https://rss.sciencedirect.com/publication/science/09270248
 https://rss.sciencedirect.com/publication/science/22112855
+https://rss.sciencedirect.com/publication/science/02540584
+https://rss.sciencedirect.com/publication/science/25425293
+https://rss.sciencedirect.com/publication/science/02728842
+https://rss.sciencedirect.com/publication/science/09253467
 
-# J. Am. Chem. Soc. (ACS)
-https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat
-
-# Joule (Cell Press)
-https://www.cell.com/joule/inpress.rss
-
-# J. Energy Chem. (Elsevier)
-https://rss.sciencedirect.com/publication/science/20954956
-
-# ACS Nano (ACS)
-https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=ancac3
-
-# Energy Environ. Sci. (RSC)
-http://feeds.rsc.org/rss/ee
-
-# J. Phys. Chem. C (ACS)
-https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jpccck
-
-# Nano-Micro Lett. (Springer, search RSS)
-https://link.springer.com/search.rss?query=*&facet-journal-id=40820&sortOrder=newest
-
-## ===== 顶刊/综合高影响 =====
-
-# Nature Energy
-http://feeds.nature.com/nenergy/rss/current
-
-# Nature Communications
-https://www.nature.com/ncomms.rss
-
-# Nature Materials
+# ===== Springer / Nature =====
+https://link.springer.com/search.rss?query=*&facet-journal-id=10853&sortOrder=newest
+https://link.springer.com/search.rss?query=*&facet-journal-id=12274&sortOrder=newest
+https://link.springer.com/search.rss?query=*&facet-journal-id=12598&sortOrder=newest
+https://link.springer.com/search.rss?query=*&facet-journal-id=40823&sortOrder=newest
+https://www.nature.com/commsmat.rss
+https://www.nature.com/natelectron.rss
+https://www.nature.com/nenergy.rss
 https://www.nature.com/nmat.rss
+https://www.nature.com/nnano.rss
+https://www.nature.com/natrevmats.rss
 
-# Nature Photonics
-https://www.nature.com/nphoton.rss
+# ===== Focused MDPI =====
+https://www.mdpi.com/rss/journal/crystals
+https://www.mdpi.com/rss/journal/energies
+https://www.mdpi.com/rss/journal/materials
+https://www.mdpi.com/rss/journal/micromachines
+https://www.mdpi.com/rss/journal/nanomaterials
+https://www.mdpi.com/rss/journal/solar
 
-# Nano Letters (ACS)
-https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=nalefd
+# ===== Preprints =====
+https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:%22solar+cell%22&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending

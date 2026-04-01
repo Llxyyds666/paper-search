@@ -1,23 +1,31 @@
-# ===== 主题核心 =====
-formamidinium AND perovskite AND solar cell
-formamidinium AND perovskite AND photovoltaic
-formamidinium AND 2d AND perovskite
-formamidinium AND quasi-2d
-formamidinium AND quasi 2d
-formamidinium AND ruddlesden-popper
-formamidinium AND dion–jacobson
-fapbi3 AND perovskite
-fa-based AND perovskite AND solar cell
-fa-based AND 2d AND perovskite
+# ===== 核心体系 =====
+perovskite AND solar cell
+perovskite AND photovoltaic
+formamidinium AND perovskite
+fa-based AND perovskite
+fapbi3
+alpha-fapbi3
 
-# ===== 2D 结构关键词 =====
-quasi-2d perovskite AND solar cell
-quasi 2d perovskite AND solar cell
+# ===== 2D / 准2D / 层状体系 =====
+quasi-2d AND perovskite AND solar cell
+quasi 2d AND perovskite AND solar cell
 2d perovskite AND solar cell
-2d perovskite AND photovoltaic
+2d 3d AND perovskite AND solar cell
+2d/3d AND perovskite AND solar cell
 low-dimensional perovskite AND solar cell
 layered perovskite AND solar cell
 
-# ===== 结构类型 =====
+# ===== RP / DJ 结构 =====
 ruddlesden-popper AND perovskite AND solar cell
-dion–jacobson AND perovskite AND solar cell
+dion-jacobson AND perovskite AND solar cell
+rp perovskite AND solar cell
+dj perovskite AND solar cell
+
+# ===== 你这条线常见主题 =====
+perovskite AND solar cell AND passivation
+perovskite AND solar cell AND interface
+perovskite AND solar cell AND defect passivation
+perovskite AND solar cell AND stability
+all-perovskite AND tandem
+inverted perovskite solar cell
+p-i-n perovskite solar cell

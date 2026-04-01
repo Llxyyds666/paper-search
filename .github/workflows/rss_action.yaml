@@ -28,14 +28,19 @@ jobs:
 
     - name: Run RSS Script
       env: 
+        RSS_JOURNALS: ${{ secrets.RSS_JOURNALS }}
         RSS_KEYWORDS: ${{ secrets.RSS_KEYWORDS }}
+        RSS_FEED_TITLE: ${{ secrets.RSS_FEED_TITLE }}
+        RSS_FEED_DESCRIPTION: ${{ secrets.RSS_FEED_DESCRIPTION }}
+        RSS_FEED_LINK: ${{ secrets.RSS_FEED_LINK }}
+        RSS_REBUILD_FROM_SCRATCH: ${{ secrets.RSS_REBUILD_FROM_SCRATCH }}
       run: python get_RSS.py
 
     - name: Commit and Push changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add filtered_feed.xml
+        git add filtered_feed.xml fetch_failures.tsv
         # 只有当有新文件生成或文件变动时才提交
         git commit -m "Auto-update RSS feed" || echo "No changes to commit"
         git push
