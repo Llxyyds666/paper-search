@@ -67,6 +67,9 @@ SOURCE_NAME_OVERRIDES = {
     normalize_rss_url(
         "https://export.arxiv.org/api/query?search_query=all:%22dion-jacobson%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending"
     ): "arXiv DJ perovskites",
+    normalize_rss_url(
+        "https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:tandem&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending"
+    ): "arXiv perovskite tandems",
 }
 
 
@@ -294,6 +297,7 @@ JOURNAL_ABBR = {
     "arXiv quasi-2D perovskites": "arXiv-q2D",
     "arXiv RP perovskites": "arXiv-RP",
     "arXiv DJ perovskites": "arXiv-DJ",
+    "arXiv perovskite tandems": "arXiv-tandem",
 }
 
 RSS_JOURNAL_TITLE = load_journal_title_mapping(JOURNAL_NAME_FILE)
@@ -354,11 +358,22 @@ def print_failure_summary(failures):
     for category, count in sorted(counts.items()):
         print(f"  {category}: {count}")
 
+
+def get_env_setting(name, default=""):
+    value = os.environ.get(name)
+    if value is None:
+        return default
+
+    value = value.strip()
+    return value or default
+
+
 def load_config(filename, env_var_name=None):
     """(保持你之前的 load_config 代码不变)"""
-    if env_var_name and os.environ.get(env_var_name):
+    env_value = get_env_setting(env_var_name) if env_var_name else ""
+    if env_var_name and env_value:
         print(f"Loading config from environment variable: {env_var_name}")
-        content = os.environ[env_var_name]
+        content = env_value
         if '\n' in content:
             return [line.strip() for line in content.split('\n') if line.strip()]
         else:
@@ -388,9 +403,9 @@ def normalize_search_text(text):
 
 
 def build_feed_link():
-    explicit_link = os.environ.get("RSS_FEED_LINK")
+    explicit_link = get_env_setting("RSS_FEED_LINK")
     if explicit_link:
-        return explicit_link.strip()
+        return explicit_link
 
     repository = os.environ.get("GITHUB_REPOSITORY", "").strip()
     if "/" in repository:
@@ -398,6 +413,72 @@ def build_feed_link():
         return f"https://{owner}.github.io/{repo}/filtered_feed.xml"
 
     return "https://github.com/your_username/your_repo"
+
+
+def extract_entry_authors(entry):
+    authors = []
+    for author in entry.get("authors", []):
+        if isinstance(author, dict):
+            name = author.get("name", "").strip()
+        else:
+            name = str(author).strip()
+        if name:
+            authors.append(name)
+
+    if authors:
+        return ", ".join(dict.fromkeys(authors))
+
+    return entry.get("author", "").strip()
+
+
+def extract_entry_summary(entry):
+    candidates = [
+        entry.get("summary", ""),
+        entry.get("description", ""),
+        entry.get("subtitle", ""),
+        entry.get("dc_description", ""),
+    ]
+
+    for content_item in entry.get("content", []):
+        if isinstance(content_item, dict):
+            candidates.append(content_item.get("value", ""))
+        elif isinstance(content_item, str):
+            candidates.append(content_item)
+
+    for candidate in candidates:
+        if candidate and candidate.strip():
+            return candidate.strip()
+
+    return ""
+
+
+def format_pub_date(pub_date):
+    if not isinstance(pub_date, datetime.datetime):
+        return ""
+    return pub_date.strftime("%Y-%m-%d")
+
+
+def ensure_summary_has_metadata(summary, journal_title, authors, pub_date):
+    metadata_blocks = []
+    summary_lower = summary.lower()
+
+    if journal_title and "source:" not in summary_lower:
+        metadata_blocks.append(f"<p><b>Source:</b> {journal_title}</p>")
+
+    if authors and "author" not in summary_lower:
+        metadata_blocks.append(f"<p><b>Author(s):</b> {authors}</p>")
+
+    pub_date_text = format_pub_date(pub_date)
+    if pub_date_text and "publication date" not in summary_lower and "published:" not in summary_lower:
+        metadata_blocks.append(f"<p><b>Published:</b> {pub_date_text}</p>")
+
+    if summary:
+        return "".join(metadata_blocks) + summary
+
+    if metadata_blocks:
+        return "".join(metadata_blocks)
+
+    return "<p>Abstract not provided by the source feed.</p>"
 
 # --- 新增：XML 非法字符清洗函数 ---
 def remove_illegal_xml_chars(text):
@@ -446,12 +527,19 @@ def parse_rss(rss_url, retries=3):
             for entry in feed.entries:
                 pub_struct = entry.get('published_parsed', entry.get('updated_parsed'))
                 pub_date = convert_struct_time_to_datetime(pub_struct)
+                authors = extract_entry_authors(entry)
+                summary = ensure_summary_has_metadata(
+                    extract_entry_summary(entry),
+                    journal_title,
+                    authors,
+                    pub_date,
+                )
 
                 entries.append({
                     'title': entry.get('title', ''),
                     'link': entry.get('link', ''),
                     'pub_date': pub_date,
-                    'summary': entry.get('summary', entry.get('description', '')),
+                    'summary': summary,
                     'journal': journal_title,
                     'id': entry.get('id', entry.get('link', ''))
                 })
@@ -546,9 +634,9 @@ def generate_rss_xml(items):
         rss_items.append(rss_item)
 
     feed = Feed(
-        title=os.environ.get("RSS_FEED_TITLE", DEFAULT_FEED_TITLE),
+        title=get_env_setting("RSS_FEED_TITLE", DEFAULT_FEED_TITLE),
         link=build_feed_link(),
-        description=os.environ.get("RSS_FEED_DESCRIPTION", DEFAULT_FEED_DESCRIPTION),
+        description=get_env_setting("RSS_FEED_DESCRIPTION", DEFAULT_FEED_DESCRIPTION),
         language="en-US",
         lastBuildDate=datetime.datetime.now(),
         items=rss_items

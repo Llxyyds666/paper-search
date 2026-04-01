@@ -18,8 +18,10 @@
 *   **数据清洗**：内置 XML 字符清洗程序，自动移除非法字符，确保订阅源的兼容性与稳定性。
 *   **隐私保护**：支持通过 GitHub Secrets 注入配置，隐藏用户的研究领域与关注列表。
 *   **通用兼容**：生成的 `filtered_feed.xml` 遵循 RSS 2.0 标准，适配所有主流 RSS 阅读器。
+*   **源池更大**：`journals.dat` 默认使用更激进的“大网兜”策略，宁滥勿缺，靠关键词二次筛选减少漏检。
 *   **支持预印本补充**：可将 arXiv 主题查询 feed 与正式期刊 RSS 混合订阅，减少正式发表前的时间差。
 *   **更适合 Zotero**：支持自定义 feed 标题、描述和重建模式，方便按研究方向维护订阅源。
+*   **尽量带摘要**：若上游 RSS 提供摘要，则写入 Zotero 可读的 `description`；若上游只给元数据，则至少补上期刊、作者和日期。
 
 ---
 
@@ -34,7 +36,7 @@
 
 #### 方式 A：文件配置（公开可见）
 直接编辑仓库中的以下文件：
-*   `journals.dat`：填入期刊 RSS 链接，一行一个。
+*   `journals.dat`：填入期刊 RSS 链接，一行一个。默认版本已经是偏“宁滥勿缺”的大覆盖池。
 *   `keywords.dat`：填入筛选关键词，一行一个。
     *   示例：`Perovskite AND Stability`
 
@@ -49,6 +51,10 @@
 *   `RSS_FEED_DESCRIPTION`：订阅描述。
 *   `RSS_FEED_LINK`：RSS channel 的链接地址；若不填，Actions 环境会自动按 GitHub Pages 地址推断。
 *   `RSS_REBUILD_FROM_SCRATCH`：设为 `1` / `true` 时，运行时忽略旧的 `filtered_feed.xml`，适合切换研究方向后重建订阅。
+
+说明：
+*   如果这些 Secret 没填，脚本会回退到代码内的默认标题/描述和仓库里的 `journals.dat` / `keywords.dat`。
+*   如果 Secret 被创建成空字符串，现在也会自动回退，不会再生成空白的 feed 标题和描述。
 
 ### 3. 启动服务
 1.  **配置 Pages**：
@@ -72,6 +78,12 @@
     *   粘贴上述链接。
 3.  **设置同步频率**：
     *   建议在 Zotero 订阅设置中将更新时间设为 **6小时** 或更短，以匹配后端的更新频率。
+
+### Zotero 里能看到什么
+*   标题一定会有。
+*   摘要取决于上游 RSS 是否提供 `summary` / `description` / `content`。
+*   如果上游不给摘要，生成的 feed 仍会尽量写入 `Source`、`Author(s)`、`Published` 这些元数据，避免 Zotero 里只剩一行标题。
+*   不同期刊对 RSS 的慷慨程度差别很大，Elsevier、Springer、arXiv 往往信息更全；有些 publisher 只给目录级元数据。
 
 ---
 
