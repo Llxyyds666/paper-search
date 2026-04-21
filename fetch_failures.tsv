@@ -1,3 +1,4 @@
 timestamp	category	url	detail
-2026-04-20T18:58:18.392742+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-04-20T18:58:25.295587+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-04-21T02:05:39.635027+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-04-21T02:05:46.803338+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-04-21T02:08:00.642844+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22quasi-2d%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
