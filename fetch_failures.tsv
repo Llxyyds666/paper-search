@@ -1,30 +1,9 @@
 timestamp	category	url	detail
-2026-06-04T03:30:24.392256+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:30:24.495923+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:30:48.302462+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-06-04T03:30:55.919935+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-06-04T03:31:38.730198+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC62.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:38.824831+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC53.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:39.007861+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC67.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:39.098574+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC54.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:39.187969+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC57.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:39.368157+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC55.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:39.461017+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC51.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:39.555820+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC64.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:39.744226+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC48.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:39.837136+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC56.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:39.925284+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC49.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:40.019398+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC65.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:40.112723+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC68.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:40.209673+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC52.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:40.300892+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC60.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:40.449672+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC61.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:40.540688+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC63.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:40.723204+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC59.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:40.900788+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC66.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:40.996233+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC58.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:31:41.086906+00:00	http_403	https://ieeexplore.ieee.org/rss/TOC50.XML	attempt=1; HTTP Error 403: Forbidden
-2026-06-04T03:33:21.342380+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22quasi-2d%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
-2026-06-04T03:33:55.170345+00:00	http_429	https://export.arxiv.org/api/query?search_query=all:%22ruddlesden-popper%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 429: Unknown Error
-2026-06-04T03:34:59.397551+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22dion-jacobson%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
-2026-06-04T03:36:01.498422+00:00	http_429	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:tandem&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 429: Unknown Error
+2026-06-04T09:48:57.193589+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-06-04T09:48:57.257151+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-06-04T09:49:07.355727+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-06-04T09:49:14.453652+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-06-04T09:51:09.002746+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:%22solar+cell%22&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
+2026-06-04T09:51:13.426516+00:00	http_429	https://export.arxiv.org/api/query?search_query=all:%22quasi-2d%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 429: Unknown Error
+2026-06-04T09:51:59.808652+00:00	http_429	https://export.arxiv.org/api/query?search_query=all:%22ruddlesden-popper%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 429: Unknown Error
+2026-06-04T09:53:29.131888+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:tandem&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
