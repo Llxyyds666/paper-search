@@ -1,11 +1,6 @@
 timestamp	category	url	detail
-2026-07-04T08:29:13.584748+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-04T08:29:13.703175+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-04T08:29:21.473927+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-04T08:29:27.271610+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-04T08:30:19.591086+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
-2026-07-04T08:30:23.843596+00:00	http_406	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:%22solar+cell%22&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 406: Not Acceptable
-2026-07-04T08:30:28.059426+00:00	http_406	https://export.arxiv.org/api/query?search_query=all:%22quasi-2d%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 406: Not Acceptable
-2026-07-04T08:30:32.286680+00:00	http_406	https://export.arxiv.org/api/query?search_query=all:%22ruddlesden-popper%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 406: Not Acceptable
-2026-07-04T08:30:36.501276+00:00	http_406	https://export.arxiv.org/api/query?search_query=all:%22dion-jacobson%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 406: Not Acceptable
-2026-07-04T08:30:40.713313+00:00	http_406	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:tandem&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 406: Not Acceptable
+2026-07-04T13:11:35.157822+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-07-04T13:11:35.205286+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-07-04T13:11:42.663796+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-07-04T13:11:48.050019+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-07-04T13:12:35.789340+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
