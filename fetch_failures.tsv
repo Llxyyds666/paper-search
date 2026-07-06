@@ -1,21 +1,24 @@
 timestamp	category	url	detail
-2026-07-05T19:08:37.248868+00:00	http_403	https://onlinelibrary.wiley.com/feed/16146840/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:37.288814+00:00	http_403	https://onlinelibrary.wiley.com/feed/16163028/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:37.325681+00:00	http_403	https://onlinelibrary.wiley.com/feed/15214095/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:37.363602+00:00	http_403	https://onlinelibrary.wiley.com/feed/21983844/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:37.489592+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:37.634280+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:41.549015+00:00	http_403	https://onlinelibrary.wiley.com/feed/2199160X/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:41.586271+00:00	http_403	https://onlinelibrary.wiley.com/feed/2365709X/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:41.621398+00:00	http_403	https://onlinelibrary.wiley.com/feed/14397641/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:41.661889+00:00	http_403	https://onlinelibrary.wiley.com/feed/16147065/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:41.704228+00:00	http_403	https://onlinelibrary.wiley.com/feed/25750356/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:41.738030+00:00	http_403	https://onlinelibrary.wiley.com/feed/20500505/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:41.774220+00:00	http_403	https://onlinelibrary.wiley.com/feed/1097007X/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:41.811124+00:00	http_403	https://onlinelibrary.wiley.com/feed/2367198x/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:41.856898+00:00	http_403	https://onlinelibrary.wiley.com/feed/26884062/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:08:44.659761+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-05T19:08:50.733164+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-05T19:09:39.245877+00:00	http_403	https://ietresearch.onlinelibrary.wiley.com/feed/1350911x/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:09:39.289348+00:00	http_403	https://ietresearch.onlinelibrary.wiley.com/feed/17554543/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-05T19:09:40.395058+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:06.944255+00:00	http_403	https://onlinelibrary.wiley.com/feed/16146840/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:06.977324+00:00	http_403	https://onlinelibrary.wiley.com/feed/16163028/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:07.017380+00:00	http_403	https://onlinelibrary.wiley.com/feed/15214095/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:07.055943+00:00	http_403	https://onlinelibrary.wiley.com/feed/21983844/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:07.138965+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:07.221521+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:13.509521+00:00	http_403	https://onlinelibrary.wiley.com/feed/2199160X/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:13.552585+00:00	http_403	https://onlinelibrary.wiley.com/feed/2365709X/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:13.586481+00:00	http_403	https://onlinelibrary.wiley.com/feed/14397641/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:13.622165+00:00	http_403	https://onlinelibrary.wiley.com/feed/16147065/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:13.663298+00:00	http_403	https://onlinelibrary.wiley.com/feed/25750356/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:13.697568+00:00	http_403	https://onlinelibrary.wiley.com/feed/20500505/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:13.736566+00:00	http_403	https://onlinelibrary.wiley.com/feed/1097007X/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:13.771772+00:00	http_403	https://onlinelibrary.wiley.com/feed/2367198x/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:13.803452+00:00	http_403	https://onlinelibrary.wiley.com/feed/26884062/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:39:16.641185+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-07-06T02:39:24.207080+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-07-06T02:40:15.349892+00:00	http_403	https://ietresearch.onlinelibrary.wiley.com/feed/1350911x/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:40:15.395795+00:00	http_403	https://ietresearch.onlinelibrary.wiley.com/feed/17554543/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:40:16.550012+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
+2026-07-06T02:41:58.831660+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22ruddlesden-popper%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
+2026-07-06T02:43:02.997567+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22dion-jacobson%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
+2026-07-06T02:43:51.649456+00:00	http_429	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:tandem&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 429: Unknown Error
