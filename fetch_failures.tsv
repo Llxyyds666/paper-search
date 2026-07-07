@@ -1,18 +1,6 @@
 timestamp	category	url	detail
-2026-07-07T09:31:50.054627+00:00	http_403	https://onlinelibrary.wiley.com/feed/16146840/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:50.084988+00:00	http_403	https://onlinelibrary.wiley.com/feed/16163028/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:50.116714+00:00	http_403	https://onlinelibrary.wiley.com/feed/15214095/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:50.147573+00:00	http_403	https://onlinelibrary.wiley.com/feed/21983844/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:50.502737+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:50.545109+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:52.140353+00:00	http_403	https://onlinelibrary.wiley.com/feed/2199160X/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:52.172003+00:00	http_403	https://onlinelibrary.wiley.com/feed/2365709X/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:52.206073+00:00	http_403	https://onlinelibrary.wiley.com/feed/14397641/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:52.237627+00:00	http_403	https://onlinelibrary.wiley.com/feed/16147065/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:52.847879+00:00	http_403	https://onlinelibrary.wiley.com/feed/1097007X/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:52.944518+00:00	http_403	https://onlinelibrary.wiley.com/feed/26884062/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:31:55.898519+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-07T09:32:04.491672+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-07T09:32:59.631434+00:00	http_403	https://ietresearch.onlinelibrary.wiley.com/feed/1350911x/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:32:59.671302+00:00	http_403	https://ietresearch.onlinelibrary.wiley.com/feed/17554543/most-recent	attempt=1; HTTP Error 403: Forbidden
-2026-07-07T09:33:01.408198+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
+2026-07-07T14:17:54.891691+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-07-07T14:17:54.931327+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-07-07T14:18:02.958869+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-07-07T14:18:08.610297+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-07-07T14:18:55.904445+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
