@@ -1,27 +1,21 @@
 timestamp	category	url	detail
-2026-07-18T13:01:43.850671+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-18T13:01:44.073656+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-18T13:01:50.201291+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-18T13:01:57.722628+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-18T13:02:45.651116+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC62.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:02:49.822713+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC53.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:02:53.989965+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC67.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:02:58.143958+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC54.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:02.307039+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC57.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:06.463224+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC55.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:10.656193+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC51.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:14.808494+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC64.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:18.962696+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC48.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:23.154775+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC56.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:27.308099+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC49.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:31.496906+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC65.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:35.656494+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC68.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:39.808118+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC52.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:44.060307+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC60.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:48.215520+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC61.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:52.368536+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC63.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:03:56.565541+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC59.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:04:00.766754+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC66.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:04:04.961775+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC58.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:04:09.119064+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC50.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-07-18T13:04:11.369793+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:54:58.369354+00:00	http_403	https://onlinelibrary.wiley.com/feed/16146840/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:54:58.422985+00:00	http_403	https://onlinelibrary.wiley.com/feed/16163028/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:54:58.473003+00:00	http_403	https://onlinelibrary.wiley.com/feed/15214095/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:54:58.528918+00:00	http_403	https://onlinelibrary.wiley.com/feed/21983844/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:54:58.666070+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:54:59.103856+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:05.147520+00:00	http_403	https://onlinelibrary.wiley.com/feed/2199160X/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:05.199390+00:00	http_403	https://onlinelibrary.wiley.com/feed/2365709X/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:05.251359+00:00	http_403	https://onlinelibrary.wiley.com/feed/14397641/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:05.309788+00:00	http_403	https://onlinelibrary.wiley.com/feed/16147065/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:05.364202+00:00	http_403	https://onlinelibrary.wiley.com/feed/25750356/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:05.414837+00:00	http_403	https://onlinelibrary.wiley.com/feed/20500505/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:05.475045+00:00	http_403	https://onlinelibrary.wiley.com/feed/1097007X/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:05.533349+00:00	http_403	https://onlinelibrary.wiley.com/feed/2367198x/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:05.596227+00:00	http_403	https://onlinelibrary.wiley.com/feed/26884062/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:55:09.086862+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-07-18T18:55:16.310760+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-07-18T18:56:01.650471+00:00	http_403	https://ietresearch.onlinelibrary.wiley.com/feed/1350911x/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:56:01.706788+00:00	http_403	https://ietresearch.onlinelibrary.wiley.com/feed/17554543/most-recent	attempt=1; HTTP Error 403: Forbidden
+2026-07-18T18:56:03.584782+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
