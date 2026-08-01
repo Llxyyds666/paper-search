@@ -1,6 +1,11 @@
 timestamp	category	url	detail
-2026-07-31T19:15:59.009584+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-31T19:15:59.100377+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-07-31T19:16:08.136701+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-31T19:16:21.404097+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-07-31T19:17:29.275235+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
+2026-08-01T02:14:02.959187+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-08-01T02:14:03.014258+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-08-01T02:14:10.476777+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-08-01T02:14:18.766320+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-08-01T02:15:04.228712+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
+2026-08-01T02:16:05.856559+00:00	http_429	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:%22solar+cell%22&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 429: Unknown Error
+2026-08-01T02:16:10.335840+00:00	http_429	https://export.arxiv.org/api/query?search_query=all:%22quasi-2d%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 429: Unknown Error
+2026-08-01T02:17:14.494765+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22ruddlesden-popper%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
+2026-08-01T02:18:16.386976+00:00	http_429	https://export.arxiv.org/api/query?search_query=all:%22dion-jacobson%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 429: Unknown Error
+2026-08-01T02:18:55.908957+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:tandem&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
