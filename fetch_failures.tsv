@@ -1,11 +1,27 @@
 timestamp	category	url	detail
-2026-08-13T01:24:25.025589+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-08-13T01:24:25.104345+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-08-13T01:24:34.541452+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-08-13T01:24:41.079115+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-08-13T01:25:25.073755+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
-2026-08-13T01:26:11.353433+00:00	http_429	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:%22solar+cell%22&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; HTTP Error 429: Unknown Error
-2026-08-13T01:27:15.526225+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22quasi-2d%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
-2026-08-13T01:28:19.702899+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22ruddlesden-popper%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
-2026-08-13T01:29:04.026979+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22dion-jacobson%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
-2026-08-13T01:30:08.181479+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:tandem&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
+2026-08-13T07:17:40.027760+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-08-13T07:17:40.442510+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-08-13T07:17:47.676154+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-08-13T07:17:53.261687+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-08-13T07:18:34.981332+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC62.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:18:39.128688+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC53.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:18:43.295187+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC67.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:18:47.452271+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC54.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:18:51.598663+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC57.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:18:55.745415+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC55.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:18:59.895065+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC51.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:04.044386+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC64.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:08.196605+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC48.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:12.344878+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC56.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:16.518909+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC49.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:20.664365+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC65.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:24.821250+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC68.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:28.961732+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC52.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:33.248424+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC60.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:37.397133+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC61.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:41.547307+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC63.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:45.699915+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC59.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:49.860571+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC66.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:54.022671+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC58.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:19:58.191389+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC50.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-08-13T07:20:00.161564+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
