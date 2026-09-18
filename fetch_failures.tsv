@@ -1,27 +1,64 @@
 timestamp	category	url	detail
-2026-09-18T10:24:50.259245+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-09-18T10:24:51.525553+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-09-18T10:25:02.906079+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-09-18T10:25:09.391521+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-09-18T10:25:57.692236+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC62.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:01.961574+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC53.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:06.234125+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC67.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:10.517332+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC54.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:14.803841+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC57.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:19.072242+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC55.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:23.334232+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC51.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:27.609551+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC64.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:31.867238+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC48.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:36.128082+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC56.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:40.407974+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC49.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:44.661516+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC65.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:48.938798+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC68.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:53.208894+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC52.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:26:57.563508+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC60.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:27:01.817537+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC61.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:27:06.091134+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC63.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:27:10.355746+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC59.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:27:14.635755+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC66.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:27:18.888542+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC58.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:27:23.158955+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC50.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-09-18T10:27:25.740786+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
+2026-09-18T15:39:29.134101+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-09-18T15:39:29.286284+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-09-18T15:39:43.251190+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-09-18T15:39:51.045483+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-09-18T15:39:55.260645+00:00	parse_error	https://www.mdpi.com/rss/journal/actuators	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:55.541023+00:00	parse_error	https://www.mdpi.com/rss/journal/applmech	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:55.797375+00:00	parse_error	https://www.mdpi.com/rss/journal/applsci	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:56.004810+00:00	parse_error	https://www.mdpi.com/rss/journal/batteries	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:56.224925+00:00	parse_error	https://www.mdpi.com/rss/journal/bioengineering	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:56.476301+00:00	parse_error	https://www.mdpi.com/rss/journal/biomolecules	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:56.729243+00:00	parse_error	https://www.mdpi.com/rss/journal/ceramics	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:56.945991+00:00	parse_error	https://www.mdpi.com/rss/journal/chemengineering	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:57.283708+00:00	parse_error	https://www.mdpi.com/rss/journal/chemosensors	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:57.548476+00:00	parse_error	https://www.mdpi.com/rss/journal/chips	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:57.811496+00:00	parse_error	https://www.mdpi.com/rss/journal/cleantechnol	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:58.080084+00:00	parse_error	https://www.mdpi.com/rss/journal/coatings	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:58.345421+00:00	parse_error	https://www.mdpi.com/rss/journal/colloids	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:58.570424+00:00	parse_error	https://www.mdpi.com/rss/journal/condensedmatter	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:58.842573+00:00	parse_error	https://www.mdpi.com/rss/journal/crystals	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:59.053410+00:00	parse_error	https://www.mdpi.com/rss/journal/electrochem	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:59.266381+00:00	parse_error	https://www.mdpi.com/rss/journal/electronics	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:59.494378+00:00	parse_error	https://www.mdpi.com/rss/journal/energies	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:59.711009+00:00	parse_error	https://www.mdpi.com/rss/journal/entropy	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:39:59.945182+00:00	parse_error	https://www.mdpi.com/rss/journal/fibers	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:00.158680+00:00	parse_error	https://www.mdpi.com/rss/journal/fluids	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:00.373227+00:00	parse_error	https://www.mdpi.com/rss/journal/fuels	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:00.578910+00:00	parse_error	https://www.mdpi.com/rss/journal/gels	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:00.777094+00:00	parse_error	https://www.mdpi.com/rss/journal/hardware	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:00.990228+00:00	parse_error	https://www.mdpi.com/rss/journal/inorganics	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:01.222988+00:00	parse_error	https://www.mdpi.com/rss/journal/instruments	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:01.495990+00:00	parse_error	https://www.mdpi.com/rss/journal/ijms	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:01.707333+00:00	parse_error	https://www.mdpi.com/rss/journal/jcs	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:01.925259+00:00	parse_error	https://www.mdpi.com/rss/journal/jfb	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:02.143204+00:00	parse_error	https://www.mdpi.com/rss/journal/jlpea	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:02.346305+00:00	parse_error	https://www.mdpi.com/rss/journal/jmmp	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:02.636211+00:00	parse_error	https://www.mdpi.com/rss/journal/machines	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:02.858681+00:00	parse_error	https://www.mdpi.com/rss/journal/macromol	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:03.074881+00:00	parse_error	https://www.mdpi.com/rss/journal/materials	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:03.303384+00:00	parse_error	https://www.mdpi.com/rss/journal/materproc	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:03.534258+00:00	parse_error	https://www.mdpi.com/rss/journal/mathematics	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:03.760519+00:00	parse_error	https://www.mdpi.com/rss/journal/membranes	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:03.978866+00:00	parse_error	https://www.mdpi.com/rss/journal/metals	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:04.188652+00:00	parse_error	https://www.mdpi.com/rss/journal/micromachines	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:04.407110+00:00	parse_error	https://www.mdpi.com/rss/journal/microwave	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:04.616400+00:00	parse_error	https://www.mdpi.com/rss/journal/molecules	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:04.823985+00:00	parse_error	https://www.mdpi.com/rss/journal/nanomanufacturing	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:05.030362+00:00	parse_error	https://www.mdpi.com/rss/journal/nanomaterials	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:05.242855+00:00	parse_error	https://www.mdpi.com/rss/journal/optics	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:05.452300+00:00	parse_error	https://www.mdpi.com/rss/journal/organics	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:05.678558+00:00	parse_error	https://www.mdpi.com/rss/journal/photochem	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:06.032363+00:00	parse_error	https://www.mdpi.com/rss/journal/photonics	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:06.260327+00:00	parse_error	https://www.mdpi.com/rss/journal/polymers	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:06.477912+00:00	parse_error	https://www.mdpi.com/rss/journal/processes	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:06.692371+00:00	parse_error	https://www.mdpi.com/rss/journal/recycling	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:06.907296+00:00	parse_error	https://www.mdpi.com/rss/journal/sensors	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:07.098879+00:00	parse_error	https://www.mdpi.com/rss/journal/solar	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:07.333666+00:00	parse_error	https://www.mdpi.com/rss/journal/solids	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:07.562323+00:00	parse_error	https://www.mdpi.com/rss/journal/surfaces	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:07.784010+00:00	parse_error	https://www.mdpi.com/rss/journal/sustainability	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:07.989989+00:00	parse_error	https://www.mdpi.com/rss/journal/symmetry	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:08.210588+00:00	parse_error	https://www.mdpi.com/rss/journal/technologies	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:08.430581+00:00	parse_error	https://www.mdpi.com/rss/journal/water	attempt=1; SAXParseException('syntax error')
+2026-09-18T15:40:15.469065+00:00	http_403	https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tetn	attempt=1; HTTP Error 403: Forbidden
