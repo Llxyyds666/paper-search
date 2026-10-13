@@ -1,8 +1,5 @@
 timestamp	category	url	detail
-2026-10-13T00:02:31.528402+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-10-13T00:02:31.587723+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-10-13T00:02:40.299953+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-10-13T00:02:49.310508+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-10-13T00:04:20.663264+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:%22solar+cell%22&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
-2026-10-13T00:05:20.386584+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:%22quasi-2d%22+AND+all:perovskite&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
-2026-10-13T00:06:50.152143+00:00	timeout	https://export.arxiv.org/api/query?search_query=all:perovskite+AND+all:tandem&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending	attempt=3; timeout('The read operation timed out')
+2026-10-13T13:21:53.637576+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-10-13T13:21:53.704665+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-10-13T13:22:01.173425+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-10-13T13:22:06.733548+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
