@@ -1,26 +1,5 @@
 timestamp	category	url	detail
-2026-10-16T10:30:43.765688+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-10-16T10:30:43.998494+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-10-16T10:30:52.154619+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-10-16T10:30:59.304569+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-10-16T10:31:50.221774+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC62.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:31:54.542494+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC53.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:31:58.982779+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC67.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:03.275675+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC54.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:07.526934+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC57.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:11.934439+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC55.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:16.518504+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC51.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:21.068797+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC64.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:25.440608+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC48.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:29.725544+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC56.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:33.967789+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC49.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:38.328096+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC65.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:42.808797+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC68.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:47.310090+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC52.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:51.577719+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC60.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:32:56.267148+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC61.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:33:00.748385+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC63.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:33:05.132213+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC59.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:33:09.506981+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC66.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:33:13.754812+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC58.XML	attempt=3; HTTP Error 418: Unknown Code
-2026-10-16T10:33:18.002167+00:00	http_418	https://ieeexplore.ieee.org/rss/TOC50.XML	attempt=3; HTTP Error 418: Unknown Code
+2026-10-16T15:56:13.975153+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-10-16T15:56:14.028225+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-10-16T15:56:23.281050+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-10-16T15:56:31.378037+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
