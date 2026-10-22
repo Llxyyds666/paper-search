@@ -1,5 +1,5 @@
 timestamp	category	url	detail
-2026-10-22T16:28:01.646635+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-10-22T16:28:01.878655+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
-2026-10-22T16:28:14.596874+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
-2026-10-22T16:28:22.177952+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-10-22T21:06:23.686262+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aaemcq&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-10-22T21:06:24.796689+00:00	http_403	https://pubs.acs.org/action/showFeed?jc=aelccp&type=etoc&feed=rss	attempt=1; HTTP Error 403: Forbidden
+2026-10-22T21:06:32.759911+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=10427&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
+2026-10-22T21:06:40.581497+00:00	empty_feed	https://link.springer.com/search.rss?query=*&facet-journal-id=543&sortOrder=newest	attempt=1; status=200; feed_title=Latest Results
